@@ -1,16 +1,13 @@
-var React = require("react");
-var ReactDom = require("react-dom");
-require("./index.css");
-
-// state
-// lifecycle events
-// UI (jsx)
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import Popular from "./components/Popular";
 
 class App extends React.Component {
     render() {
         return (
-            <div>
-                <h1>HELLO WORLD</h1>
+            <div className="container">
+                <Popular />
             </div>
         );
     }
