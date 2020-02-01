@@ -63,7 +63,7 @@ function ReposGrid({ repos }) {
                             <li>
                                 <FaUser color="rgb(255,191, 116)" size={22} />
                                 <a href={`https://github.com/${login}`}>
-                                    Login
+                                    {Login}
                                 </a>
                             </li>
                             <li>
